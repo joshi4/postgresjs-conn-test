@@ -2,7 +2,7 @@ const postgres = require('postgres');
 
 const sql = postgres(); 
 
-async function getCourses() {
+function getCourses() {
    const result = await sql`
     SELECT * FROM courses
   `.catch(x => console.log("Error", x)); 
@@ -11,14 +11,7 @@ async function getCourses() {
   }
 }
 
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
-setInterval(getCourses, 1000);
+setInterval(getCourses, 10000);
+setInterval(getCourses, 30000);
+setInterval(getCourses, 60000);
+setInterval(getCourses, 1000000);

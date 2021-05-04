@@ -1,0 +1,14 @@
+{
+  "name": "conn-reset",
+  "version": "1.0.0",
+  "description": "test connection errors",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "shantanu",
+  "license": "MIT",
+  "dependencies": {
+    "postgres": "^1.0.2"
+  }
+}

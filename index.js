@@ -2,7 +2,7 @@ const postgres = require('postgres');
 
 const sql = postgres(); 
 
-function getCourses() {
+async function getCourses() {
    const result = await sql`
     SELECT * FROM courses
   `.catch(x => console.log("Error", x)); 

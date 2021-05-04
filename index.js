@@ -1,6 +1,6 @@
 const postgres = require('postgres'); 
 
-const sql = postgres({ssl: require}); 
+const sql = postgres(); 
 
 async function getCourses() {
    await sql`

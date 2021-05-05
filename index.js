@@ -20,12 +20,10 @@ async function getCourses() {
 
 function startLoop() {
   ( async ()=>{
-    setInterval(getCourses, 1000);
-    setInterval(getCourses, 2000);
+    setInterval(getCourses, 100000);
+    setInterval(getCourses, 200000);
   })();
 }
 
 startLoop();
 
-// setInterval(getCourses, 60000);
-// setInterval(getCourses, 1000000);

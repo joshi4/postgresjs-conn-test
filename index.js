@@ -41,27 +41,27 @@ function startLoop() {
     await getCourses(); 
     console.log("initial calls end"); 
 
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
-    setInterval(getCourses,  60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
+    setInterval(getCourses,  180 * 60 * 1000);
   })();
 }
 

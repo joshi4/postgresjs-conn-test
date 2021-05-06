@@ -20,6 +20,26 @@ function startLoop() {
   ( async ()=>{
     await getCourses(); 
     setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
+    setInterval(getCourses, 60000);
   })();
 }
 

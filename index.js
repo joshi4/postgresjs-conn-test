@@ -19,6 +19,28 @@ async function getCourses() {
 function startLoop() {
   ( async ()=>{
     await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    await getCourses(); 
+    console.log("initial calls end"); 
+
     setInterval(getCourses,  60 * 1000);
     setInterval(getCourses,  60 * 1000);
     setInterval(getCourses,  60 * 1000);

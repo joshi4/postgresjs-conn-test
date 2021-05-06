@@ -8,9 +8,7 @@ async function getCourses() {
     SELECT * FROM courses
   `;
 
-    if (result && Math.random() < 0.05) {
-      console.log("returned rows: ", result.count);
-    }
+   console.log("returned rows: ", result.count);
   } catch(x) {
    console.log("Error", x);
   }
@@ -20,8 +18,8 @@ async function getCourses() {
 
 function startLoop() {
   ( async ()=>{
-    setInterval(getCourses, 100000);
-    setInterval(getCourses, 200000);
+    await getCourses(); 
+    setInterval(getCourses, 60000);
   })();
 }
 

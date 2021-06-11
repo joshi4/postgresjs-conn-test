@@ -1,9 +1,7 @@
 const postgres = require('postgres');
 
 const sql = postgres({
-  connection: {
-    idle_timeout: 60 * 60
-  }
+ idle_timeout: 60 * 60
 });
 
 async function getCourses(name) {

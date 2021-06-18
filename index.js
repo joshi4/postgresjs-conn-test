@@ -1,13 +1,13 @@
 const postgres = require('postgres');
 
 const sql = postgres({
- idle_timeout: 60
+ idle_timeout: 60* 60
 });
 
 async function getCourses(name) {
   try {
    const result = await sql`
-    SELECT * FROM courses
+    SELECTERR * FROM courses
   `;
 
    console.log(name,": ",  "returned rows: ", result.count);
@@ -44,27 +44,27 @@ function startLoop() {
 
    console.log("initial calls end");
 
-    setInterval(()=>{getCourses("1")},  35 * 1000);
-    setInterval(()=>{getCourses("2")},  35 * 1000);
-    setInterval(()=>{getCourses("3")},  35 * 1000);
-    setInterval(()=>{getCourses("4")},  35 * 1000);
-    setInterval(()=>{getCourses("5")},  35 * 1000);
-    setInterval(()=>{getCourses("6")},  35 * 1000);
-    setInterval(()=>{getCourses("7")},  35 * 1000);
-    setInterval(()=>{getCourses("8")},  35 * 1000);
-    setInterval(()=>{getCourses("9")},  35 * 1000);
-    setInterval(()=>{getCourses("10")},  35 * 1000);
+    setInterval(()=>{getCourses("1")},  3000 * 1000);
+    setInterval(()=>{getCourses("2")},  3000 * 1000);
+    setInterval(()=>{getCourses("3")},  3000 * 1000);
+    setInterval(()=>{getCourses("4")},  3000 * 1000);
+    setInterval(()=>{getCourses("5")},  3000 * 1000);
+    setInterval(()=>{getCourses("6")},  3000 * 1000);
+    setInterval(()=>{getCourses("7")},  3000 * 1000);
+    setInterval(()=>{getCourses("8")},  3000 * 1000);
+    setInterval(()=>{getCourses("9")},  3000 * 1000);
+    setInterval(()=>{getCourses("10")},  3000 * 1000);
 
-    setInterval(()=>{getCourses("11")},  35 * 1000);
-    setInterval(()=>{getCourses("12")},  35 * 1000);
-    setInterval(()=>{getCourses("13")},  35 * 1000);
-    setInterval(()=>{getCourses("14")},  35 * 1000);
-    setInterval(()=>{getCourses("15")},  35 * 1000);
-    setInterval(()=>{getCourses("16")},  35 * 1000);
-    setInterval(()=>{getCourses("17")},  35 * 1000);
-    setInterval(()=>{getCourses("18")},  35 * 1000);
-    setInterval(()=>{getCourses("19")},  35 * 1000);
-    setInterval(()=>{getCourses("20")},  35 * 1000);
+    setInterval(()=>{getCourses("11")},  3000 * 1000);
+    setInterval(()=>{getCourses("12")},  3000 * 1000);
+    setInterval(()=>{getCourses("13")},  3000 * 1000);
+    setInterval(()=>{getCourses("14")},  3000 * 1000);
+    setInterval(()=>{getCourses("15")},  3000 * 1000);
+    setInterval(()=>{getCourses("16")},  3000 * 1000);
+    setInterval(()=>{getCourses("17")},  3000 * 1000);
+    setInterval(()=>{getCourses("18")},  3000 * 1000);
+    setInterval(()=>{getCourses("19")},  3000 * 1000);
+    setInterval(()=>{getCourses("20")},  3000 * 1000);
   })();
 }
 

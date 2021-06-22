@@ -2,7 +2,6 @@
 # yarn lockfile v1
 
 
-postgres@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/postgres/-/postgres-1.0.2.tgz#7b9f6769934f727cec0f1d7ef58d4915a327f5dd"
-  integrity sha512-zeLgt42KSUNgX/uvo+gbVxTAYwgSY6MIKuU/a8YWuObX4rtGuKrVWopvEAqIAPSO0FeHS1TsSKnqPjoufPy8NA==
+postgres@joshi4/postgres#9790f0c:
+  version "2.0.0-beta.5"
+  resolved "https://codeload.github.com/joshi4/postgres/tar.gz/9790f0c7d2e709b4eaa916525a494883bd136f70"

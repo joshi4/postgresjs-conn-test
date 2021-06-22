@@ -9,6 +9,6 @@
   "author": "shantanu",
   "license": "MIT",
   "dependencies": {
-    "postgres": "^1.0.2"
+    "postgres": "joshi4/postgres#9790f0c"
   }
 }

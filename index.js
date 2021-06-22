@@ -7,7 +7,7 @@ const sql = postgres({
 async function getCourses(name) {
   try {
    const result = await sql`
-    SELECT * FROM does_not_exists
+    SELECT * FROM courses
   `;
 
    console.log(name,": ",  "returned rows: ", result.count);

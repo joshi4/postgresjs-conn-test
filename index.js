@@ -35,7 +35,7 @@ pool
   .connect()
   .then(client => {
     return client
-      .query('SELECT * FROM coureses')
+      .query('SELECT * FROM courses')
       .then(res => {
         client.release()
         console.log(res.rows[0])

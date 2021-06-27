@@ -39,6 +39,7 @@ pool
       .then(res => {
         client.release()
         console.log(res.rows[0])
+        console.log(name, "pgPool returned rows:", res.rows.count )
       })
       .catch(err => {
         client.release()

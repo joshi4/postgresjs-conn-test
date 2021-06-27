@@ -2,6 +2,6 @@
 # yarn lockfile v1
 
 
-postgres@joshi4/postgres#9790f0c:
+postgres@joshi4/postgres#50d22adbfa88ef90e04e8e2d9e8d018b6c38af31:
   version "2.0.0-beta.5"
-  resolved "https://codeload.github.com/joshi4/postgres/tar.gz/9790f0c7d2e709b4eaa916525a494883bd136f70"
+  resolved "https://codeload.github.com/joshi4/postgres/tar.gz/50d22adbfa88ef90e04e8e2d9e8d018b6c38af31"

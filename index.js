@@ -10,7 +10,6 @@ const pool = new Pool({
 // it contains if a backend error or network partition happens
 pool.on('error', (err, client) => {
   console.error('pgPool: Unexpected error on idle client', err)
-  process.exit(-1)
 })
 
 const sql = postgres({

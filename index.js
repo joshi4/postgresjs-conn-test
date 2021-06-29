@@ -7,10 +7,10 @@ const sql = postgres({
 async function getCourses(name) {
   try {
    const result = await sql`
-    SELECT * FROM courses
+    SELECT count(*) FROM courses
   `;
 
-   console.log(name,": ",  "returned rows: ", result.count);
+   console.log(name,": ",  "returned rows: ", result);
   } catch(x) {
    console.log(name, ": ", "Error", x);
   }

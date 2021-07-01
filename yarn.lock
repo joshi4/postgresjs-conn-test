@@ -90,9 +90,10 @@ postgres-interval@^1.1.0:
   dependencies:
     xtend "^4.0.0"
 
-postgres@joshi4/postgres#50d22adbfa88ef90e04e8e2d9e8d018b6c38af31:
+postgres@2.0.0-beta.5:
   version "2.0.0-beta.5"
-  resolved "https://codeload.github.com/joshi4/postgres/tar.gz/50d22adbfa88ef90e04e8e2d9e8d018b6c38af31"
+  resolved "https://registry.yarnpkg.com/postgres/-/postgres-2.0.0-beta.5.tgz#22cc1cf73c08ec80fd737e4242397327d9defeb6"
+  integrity sha512-PcOYMX1JO6zpBintoYkLvc6xHab5Ynixr3Fm5nsVlU5zthVwWYeypjwO/9qNTxDZz1fAmvPHRxAxjw7aojIlLg==
 
 readable-stream@^3.0.0:
   version "3.6.0"

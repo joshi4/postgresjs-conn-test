@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "pg": "^8.6.0",
-    "postgres": "joshi4/postgres#50d22adbfa88ef90e04e8e2d9e8d018b6c38af31"
+    "postgres": "2.0.0-beta.5"
   }
 }
